@@ -135,14 +135,14 @@ if($linhas > 0){
 							<span class="icon-bar"></span>
 							<span class="icon-bar"></span>
 						</button>
-						<h1><a class="navbar-brand" href="index.php"><span class="fa fa-globe"></span> Sistema<span class="dashboard_text"><?php echo $nome_sistema ?></span></a></h1>
+						<h1><a class="navbar-brand" href="index.php"><span class="fa fa-modx"></span> Sistema<span class="dashboard_text"><?php echo $nome_sistema ?></span></a></h1>
 					</div>
 					<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1" >
 						<ul class="sidebar-menu">
 							<li class="header">MENU NAVEGAÇÃO</li>
 							<li class="treeview <?php echo $home ?>">
 								<a href="index.php">
-									<i class="fa fa-dashboard"></i> <span>Home</span>
+									<i class="fa fa-home"></i> <span>Home</span>
 								</a>
 							</li>
 							<li class="treeview <?php echo $menu_pessoas ?>">
@@ -152,21 +152,21 @@ if($linhas > 0){
 									<i class="fa fa-angle-left pull-right"></i>
 								</a>
 								<ul class="treeview-menu">
-									<li class="<?php echo $usuarios ?>"><a href="usuarios"><i class="fa fa-angle-right"></i> Usuários</a></li>
+									<li class="<?php echo $usuarios ?>"><a href="usuarios"><i class="fa fa-file-text"></i> Usuários</a></li>
 									
 								</ul>
 							</li>
 
 							<li class="treeview <?php echo $menu_cadastros ?>">
 								<a href="#">
-									<i class="fa fa-plus"></i>
+									<i class="fa fa-clipboard"></i>
 									<span>Cadastros</span>
 									<i class="fa fa-angle-left pull-right"></i>
 								</a>
 								<ul class="treeview-menu">
-									<li class="<?php echo $grupo_acessos ?>"><a href="grupo_acessos"><i class="fa fa-angle-right"></i> Grupos</a></li>
+									<li class="<?php echo $grupo_acessos ?>"><a href="grupo_acessos"><i class="fa fa-user-plus"></i> Grupos</a></li>
 
-									<li class="<?php echo $acessos ?>"><a href="acessos"><i class="fa fa-angle-right"></i> Acessos</a></li>
+									<li class="<?php echo $acessos ?>"><a href="acessos"><i class="fa fa-archive"></i> Acessos</a></li>
 									
 								</ul>
 							</li>
